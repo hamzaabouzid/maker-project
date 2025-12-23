@@ -1,0 +1,76 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  
+}
+
+.bg-image {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background:
+   
+    
+    url("/iamges/acb03468052297c26337895544638b5d8775cc0c.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.signup-card {
+  height: 530px;
+  width: 430px;
+  background: #ffffff;
+ 
+  padding: 32px 28px;
+
+}
+
+.signup-card h3 {
+  size: 70px;
+  font-weight: 700;
+  margin-bottom: px;
+}
+
+.form-control {
+  border-radius: 999px;
+  padding: 12px 18px;
+}
+
+.form-check {
+  margin-bottom: 18px;
+}
+
+.form-check-label {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.btn-success {
+  background-color: #20d6b5;
+  border: none;
+  padding: 12px;
+}
+
+.btn-success:hover {
+  background-color: #18bfa2;
+}
+
+.login-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.login-text a {
+  color: #20d6b5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+
+
