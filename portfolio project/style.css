@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: #111;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 80px;
+}
+
+.navbar a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+  gap: 60px;
+}
+
+.hero h1 {
+  font-size: 68px;
+  margin: 20px 0;
+}
+
+.hero .desc {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  background: black;
+  color: white;
+  padding: 14px 40px;
+  border: none;
+  cursor: pointer;
+  size: 28;
+}
+
+.image-border {
+  
+  padding: 15px;
+}
+
+.image-border img {
+  width: 320px;
+  height: 420px;
+  object-fit: cover;
+}
+
+
+.brands {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  border-top: 1px solid #ddd;
+}
+
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 80px;
+  gap: 40px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.shape {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+}
+
+.pink { background: #fbcfe8; border-radius: 40px 40px 0 0; }
+.orange { background: #fb7185; border-radius: 0 40px 0 0; }
+.green { background: #047857; border-radius: 0 0 40px 0; }
+
+.badge {
+  background: #facc15;
+  padding: 5px 10px;
+  font-weight: bold;
+  position: absolute;
+}
+
+
+.work {
+  padding: 80px;
+  border-top: 1px solid #ddd;
+}
+
+.work h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+.testimonial {
+  padding: 80px;
+  border-top: 1px solid #ddd;
+}
+
+.test-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.test-card {
+  background: #f3f3f3;
+  padding: 25px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.user img {
+  border-radius: 50%;
+}
+
+
+.contact {
+    
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+  border-top: 1px solid #ddd;
+}
+
+.contact input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+
+.contact button {
+  padding: 14px 40px;
+  background: black;
+  color: white;
+  border: none;
+}
+
+.contact-text{
+    width: 570px;
+
+}
